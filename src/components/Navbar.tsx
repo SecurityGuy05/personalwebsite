@@ -22,8 +22,7 @@ export function Navbar() {
             <Link
               key={l.href}
               href={l.href}
-              className="btn rounded-lg border bg-white px-3 py-2 font-medium text-gray-900 transition-all hover:bg-gray-50 hover:scale-105 dark:bg-zinc-900 dark:text-white dark:hover:bg-zinc-800"
-              style={{ borderColor: 'var(--border)' }}
+              className="group relative inline-flex items-center gap-2 overflow-hidden rounded-lg bg-gradient-to-r from-[var(--gradient-primary-from)] to-[var(--gradient-primary-to)] px-4 py-2 font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl"
             >
               {l.label}
             </Link>

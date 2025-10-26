@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: portfolio:latest
     container_name: portfolio-app
     restart: unless-stopped
     ports:
@@ -16,6 +17,8 @@ services:
     #   - .env.production
     networks:
       - portfolio-network
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
 
 networks:
   portfolio-network:
