@@ -12,7 +12,7 @@ export default function Home() {
               <div className="absolute -inset-4 rounded-full bg-gradient-to-r from-[var(--gradient-primary-from)] to-[var(--gradient-primary-to)] opacity-20 blur-2xl"></div>
               <div className="relative h-40 w-40 overflow-hidden rounded-full bg-gradient-to-br from-[var(--gradient-primary-from)] to-[var(--gradient-primary-to)] p-1 shadow-2xl">
                 <Image
-                  src="/headshot.jpeg"
+                  src="/headshot.JPEG"
                   alt="Matthew Homeyer"
                   width={160}
                   height={160}
