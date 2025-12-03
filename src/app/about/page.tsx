@@ -20,21 +20,12 @@ export default function AboutPage() {
 
         <div className="glass-card rounded-2xl p-8 space-y-6">
           <h2 className="text-2xl font-semibold">Skills</h2>
-          <div className="grid gap-4 sm:grid-cols-2">
-            <div className="space-y-2">
-              <h3 className="font-medium text-[var(--gradient-primary-from)]">Frontend</h3>
-              <ul className="space-y-1 text-sm text-foreground/70">
-                <li>Next.js, React, TypeScript</li>
-                <li>Tailwind CSS, Responsive Design</li>
-              </ul>
-            </div>
-            <div className="space-y-2">
-              <h3 className="font-medium text-[var(--gradient-primary-to)]">Backend</h3>
-              <ul className="space-y-1 text-sm text-foreground/70">
-                <li>Docker, Kubernetes, CI/CD</li>
-                <li>Linux, Networking, Observability</li>
-              </ul>
-            </div>
+          <div className="space-y-2">
+            <h3 className="font-medium text-[var(--gradient-primary-to)]">Backend</h3>
+            <ul className="space-y-1 text-sm text-foreground/70">
+              <li>Docker, Kubernetes, CI/CD</li>
+              <li>Linux, Networking, Observability</li>
+            </ul>
           </div>
         </div>
 
